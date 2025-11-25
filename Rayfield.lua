@@ -1752,6 +1752,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	end
 
 	if (Settings.KeySystem) then
+		Passthrough = true
 		if not Settings.KeySettings then
 			Passthrough = true
 			return
